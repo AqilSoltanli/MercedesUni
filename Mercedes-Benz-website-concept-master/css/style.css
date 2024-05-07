@@ -1,0 +1,258 @@
+.mid {
+    position: flex;
+    margin-top: 200px;
+    margin-bottom: auto;
+}
+
+.navbar {
+    /* dodanie koloru i wielkosc navbara */
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    /* pełna szerokość*/
+    height: 80px;
+    /* wysokość paska */
+    background-color: rgba(0, 0, 0, 0.8);
+    /* kolor paska */
+    z-index: 7;
+}
+
+.navbar>a {
+    display: inline-block;
+}
+
+.p1 {
+    font-family: "Times New Roman", Times, serif;
+}
+
+.p2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.p3 {
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.nav-btn {
+    font-size: 20px;
+    margin-right: 10px;
+    font-family: garamond, serif;
+    color: white;
+    text-decoration: none;
+}
+
+.brand-name {
+    font-size: 26px;
+    margin-right: 10px;
+    font-family: garamond, serif;
+    color: white;
+    text-decoration: none;
+}
+
+.pf {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: garamond, serif;
+    color: white;
+    text-decoration: none;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    min-width: fit-content;
+    min-height: 100%;
+    z-index: -1;
+}
+
+.content {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.85);
+    color: #f1f1f1;
+    width: fit-content;
+    right: 0;
+    padding: 100%;
+    z-index: -1;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.85);
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    z-index: 5;
+}
+
+.about-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.b1 {
+    width: fit-content;
+    height: fit-content;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bh {
+    position: flex;
+    margin-left: 20px;
+    font-family: garamond, serif;
+    font-size: 64px;
+    color: white;
+    text-shadow: 2px 2px #000000;
+    z-index: 2;
+}
+
+@media screen and (max-width: 600px) {
+    .bhh {
+        position: flex;
+        font-family: garamond, serif;
+        font-size: 40px;
+        color: white;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+        text-shadow: 2px 2px #000000;
+    }
+    .bt {
+        position: flex;
+        font-family: garamond, serif;
+        font-size: 20px;
+        color: white;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+        text-shadow: 2px 2px #000000;
+    }
+    .aut {
+        text-align: center;
+        font-family: garamond, serif;
+        font-size: 20px;
+        color: white;
+        z-index: 2;
+        text-shadow: 2px 2px #000000;
+        font-weight: lighter;
+    }
+    .auh {
+        text-align: center;
+        font-family: garamond, serif;
+        font-size: 40px;
+        font-weight: bold;
+        color: white;
+        z-index: 2;
+        text-shadow: 2px 2px #000000;
+    }
+}
+
+@media screen and (min-width: 601px) {
+    .bt {
+        position: flex;
+        font-family: garamond, serif;
+        font-size: 20px;
+        color: white;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+        text-shadow: 2px 2px #000000;
+    }
+    .bhh {
+        position: flex;
+        font-family: garamond, serif;
+        font-size: 60px;
+        color: white;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+        text-shadow: 2px 2px #000000;
+    }
+    .aut {
+        text-align: center;
+        font-family: garamond, serif;
+        font-size: 25px;
+        color: white;
+        z-index: 2;
+        text-shadow: 2px 2px #000000;
+        font-weight: lighter;
+    }
+    .auh {
+        text-align: center;
+        font-family: garamond, serif;
+        font-size: 60px;
+        font-weight: bold;
+        color: white;
+        z-index: 2;
+        text-shadow: 2px 2px #000000;
+    }
+}
+
+
+/* EXCLUSIVE FIRST PLACE FOR GALAXY *cough* trash *cough* FOLD! */
+
+@media screen and (max-width: 430px) {
+    .brand-name {
+        visibility: hidden;
+        font-size: 0px;
+    }
+}
+
+.b2 {
+    width: fit-content;
+    height: fit-content;
+    background-color: rgba(0, 0, 0, 0.8);
+    /* kolor paska */
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.b3 {
+    width: fit-content;
+    height: fit-content;
+    background-color: rgba(0, 0, 0, 0.8);
+    /* kolor paska */
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carv {
+    position: flex;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    background-color: #000000;
+}
